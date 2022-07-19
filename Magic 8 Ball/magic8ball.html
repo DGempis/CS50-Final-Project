@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS Links -->
     <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/countdown.css">
+    <link rel="stylesheet" href="styles/magic8ball.css">
     <!-- JavaScript Links -->
-    <script defer src="countdown.js"></script>
+    <script defer src="magic8ball.js"></script>
     <!-- Title -->
-    <title>New Years Timer App</title>
+    <title>Magic 8 Ball App</title>
 </head>
 <body>
     <!-- Header -->
@@ -54,32 +54,21 @@
         </button>
     </nav>
 
-    <!-- Body => Countdown Timer -->
+    <!-- Body => Magic 8 Ball App -->
 
-    <h1>New Years Eve</h1>
+    <h1 class="header-ball">Magic 8 Ball</h1>
+        <button id="ask-btn">ASK</button>
+        <button id="new-btn">New Quesion</button>
 
-        <div class="countdown-container">
-            <div class="countdown-el days-c">
-                <p class="big-text" id="days">0</p>
-                <span>days</span>
-            </div>
-            <div class="countdown-el hours-c">
-                <p class="big-text" id="hours">0</p>
-                <span>hours</span>
-            </div>
-            <div class="countdown-el mins-c">
-                <p class="big-text" id="mins">0</p>
-                <span>mins</span>
-            </div>
-            <div class="countdown-el seconds-c">
-                <p class="big-text" id="seconds">0</p>
-                <span>seconds</span>
-            </div>
+    <input class="text-bar" type="text" placeholder="Type your question here">
+
+        <div id="ball-container">
+            <img src="./styles/empty-8ball.png" class="magic-ball" id="magic-ball-ele">
+            <p id="answer-box"></p>
         </div>
-
-        <div class="author-container"> <p class="author">
-            Made by: Danzel Gempis
-        </p>
+        
+        <div id="text-container">
+            <h2 class="header-question">Ask the Magic 8 Ball Yes/No Questions</h2>
         </div>
     
 </body>
