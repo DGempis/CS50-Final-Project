@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/scoreboard.css">
+    <!-- JavaScript Link -->
+    <script defer src="scoreboard.js"></script>
+    <!-- Fonts Link -->
+    <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>Score Board App</title>
+</head>
+<body>
+    <!-- Header -->
+    
+    <nav class="header-container">
+
+        <button class="home-button">
+            <a href="https://www.google.com/" style="color: black;">Home</a>
+        </button>
+
+        <button class="about-button">
+            <a href="/About/about.html" style="color: black;">About</a>
+        </button>
+
+        <button class="scoreboard-button">
+            <a href="/Score Board/scoreboard.html" style="color: black;">Score Board</a>
+        </button>
+
+        <button class="countdown-button">
+            <a href="https://www.google.com/" target="_blank" style="color: black;">New Years Timer</a>
+        </button>
+
+        <button class="magicball-button">
+            <a href="" style="color: black;">Magic 8 Ball App</a>
+        </button>
+
+        <button class="password-button">
+            <a href="/About/about.html" style="color: black;">Password Generator App</a>
+        </button>
+
+        <button class="blackjack-button">
+            <a href="" style="color: black;">BlackJack</a>
+        </button>
+
+        <button class="businesscard-button">
+            <a href="" style="color: black;">Business Card</a>
+        </button>
+
+        <button class="youtube-button">
+            <a href="" style="color: black;">YouTube Clone</a>
+        </button>
+    </nav>
+    
+    <!-- Body => Score Board -->
+
+    <div class="empty-slate">
+        <!-- Header -->
+        <div class="home-container">
+            <p class="home-title">HOME OF THE</p>
+        </div>
+        <div class="shooters-container">
+            <span style="color:red">S</span>
+            <span style="color: white;">H</span>
+            <span style="color: blue;">O</span>
+            <span style="color: blue;">O</span>
+            <span style="color: white;">T</span>
+            <span style="color:red;">E</span>
+            <span style="color: white;">R</span>
+            <span style="color: blue;">S</span>
+        </div>
+            <!-- Home + Guest / No DIV -->
+        <p class="board-title-home">
+            HOME</p>
+        <p class="board-title-guest">
+            GUEST</p>
+
+        <div class="home-score-container">
+            <div class="home-score" id="home-score-ele">0</div>
+        </div>
+        <div class="guest-score-container">
+            <div class="guest-score" id="guest-score-ele">0</div>
+        </div>
+        <div class="buttons-container-home">
+            <button class="plusOneHome" id="home-one-ele">+1</button>
+            <button class="plusTwoHome" id="home-two-ele">+2</button>
+            <button class="plusThreeHome" id="home-three-ele">+3</button>
+        </div>
+        <div class="reset-button-container">
+            <button class="reset-button" id="reset-button-ele">
+                Reset
+            </button>
+        </div>
+        <div class="buttons-container-guest">
+            <button class="plusOneGuest" id="guest-one-ele">
+                +1</button>
+            <button class="plusTwoGuest" id="guest-two-ele">
+                +2</button>
+            <button class="plusThreeGuest" id="guest-three-ele">
+                +3</button>
+        </div>
+        <!-- Footer -->
+        <div class="made-by">
+            Made By : Danzel Gempis 
+        </div>
+    </div>
+    
+</body>
+</html>
