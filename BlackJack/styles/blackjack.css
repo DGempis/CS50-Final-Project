@@ -1,0 +1,32 @@
+body {
+    background-image: url(./blackjack-bg.jpg);
+    background-size: cover;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+h1{
+    color: goldenrod;
+}
+
+#message-ele{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#start-ele,
+#new-card-ele,
+#new-game-ele {
+    background: goldenrod;
+    color: #016f32;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
