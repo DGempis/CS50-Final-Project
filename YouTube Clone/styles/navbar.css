@@ -1,11 +1,10 @@
-a {
+/* a {
     text-decoration: none !important;
 }
 
 .header-container {
-    max-height: 100px;
     left: 50px;
-    right: 50px;
+    right: 50px; 
     margin-top: 20px;
     margin-bottom: 100px;
 }
@@ -80,4 +79,4 @@ a {
     font-weight: bold;
     padding: 20px;
     margin-left: 20px;
-}
+} */

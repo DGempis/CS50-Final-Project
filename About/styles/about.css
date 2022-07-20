@@ -1,0 +1,67 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 75px;
+    margin-left: 50px;
+}
+
+.aboutMe-container {
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+.aboutMe-container > p {
+    font-size: 18px;
+}
+
+.bbq-photo {
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    transform: rotate(40deg);
+}
+
+.camping-photo {
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    right: 350px;
+    top: 125px;
+    transform: rotate(-20deg);
+}
+
+.chewy2-photo {
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    right: 200px;
+    top: 425px;
+}
+
+.soccer-photo {
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    right: 550px;
+    transform: rotate(15deg);
+}
+
+.chewy1-photo {
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    right: 800px;
+    transform: rotate(-15deg);
+}
+
+.tacos-photo {
+    position: absolute;
+    bottom: 10px;
+    width: 350px;
+    height: 250px;
+    transform: rotate(10deg);
+}
